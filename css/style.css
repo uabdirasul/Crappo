@@ -166,6 +166,10 @@ img {
 }
 
 /* hero-info */
+.hero {
+  margin-bottom: 6rem;
+}
+
 .hero-text {
   font-weight: 700;
   font-size: 4rem;
@@ -198,4 +202,35 @@ img {
   width: 37.75rem;
   height: 36.572rem;
   display: block;
+}
+
+/* statistics-section */
+.statistics {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Rubik', sans-serif;
+  margin-bottom: 11rem;
+}
+.statistic__column {
+  display: flex;
+}
+.statistics__icon {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 1.5rem;
+}
+.statistics__text {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3.75rem;
+  color: #fff;
+  margin: 0;
+}
+.statistics__extra-text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  letter-spacing: 1%;
+  color: #E0E0E0;
+  margin: 0;
 }
