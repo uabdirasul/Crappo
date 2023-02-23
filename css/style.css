@@ -61,7 +61,6 @@ img {
 
 .site-header {
   padding-top: 3.75rem;
-  padding-bottom: 3.7rem;
   height: 3.25rem;
 }
 
@@ -207,7 +206,7 @@ img {
 .statistics {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 11rem;
+  margin-bottom: 1rem;
 }
 .statistic__column {
   display: flex;
