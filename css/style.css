@@ -184,7 +184,7 @@ img {
   margin: 0 0 2rem 0;
 }
 
-.hero-cta-button {
+.hero-cta--button {
   padding: 1.156rem 1.5rem;
   display: flex;
   align-items: center;
@@ -192,7 +192,7 @@ img {
   height: 4rem;
 }
 
-.hero-cta-button__text {
+.hero-cta--button__text {
   margin-right: 1.5rem;
 }
 
