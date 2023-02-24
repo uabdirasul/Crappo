@@ -74,7 +74,7 @@ img {
   height: 100%;
 }
 
-.site-header__logo-img {
+.site-header__logo--img {
   display: block;
 }
 
@@ -196,7 +196,7 @@ img {
   margin-right: 1.5rem;
 }
 
-.hero__content-img {
+.hero__content--img {
   width: 37.75rem;
   height: 36.572rem;
   display: block;
