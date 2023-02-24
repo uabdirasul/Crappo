@@ -135,7 +135,7 @@ img {
   width: 100%;
 }
 
-.discount-info {
+.discount__info {
   border-radius: 2rem;
   background: rgba(255, 255, 255, 0.1);
   height: 2.5rem;
@@ -155,7 +155,7 @@ img {
   letter-spacing: 0.039rem;
 }
 
-.discount-descr {
+.discount__descr {
   display: inline-block;
   padding: 0.5rem;
   font-weight: 400;
