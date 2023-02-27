@@ -518,4 +518,5 @@ img {
 
 .advantages__card_column--img {
   display: block;
+  border-radius: 1rem;
 }
