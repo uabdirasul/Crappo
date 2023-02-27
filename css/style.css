@@ -484,8 +484,6 @@ img {
   margin-bottom: 6rem;
 }
 
-.advantages__card_wrapper {
-}
 .advantages__card_row {
   display: flex;
   justify-content: space-between;
@@ -494,9 +492,6 @@ img {
 
 .advantages__card_row {
   margin-bottom: 7.5rem;
-}
-
-.advantages__card_column {
 }
 
 .advantages__card_column--header {
