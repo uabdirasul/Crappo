@@ -71,11 +71,12 @@ img {
 
 .site-header__logo {
   margin-right: auto;
-  height: 100%;
 }
 
 .site-header__logo--img {
   display: block;
+  width: 8.438rem;
+  height: 2.5rem;
 }
 
 /* site-nav */
