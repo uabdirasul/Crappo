@@ -496,6 +496,10 @@ img {
   margin-bottom: 7.5rem;
 }
 
+.advantages__card_column {
+  margin-right: 1rem;
+}
+
 .advantages__card_column--header {
   font-weight: 700;
   font-size: 2rem;
