@@ -51,6 +51,7 @@ img {
   text-align: center;
   text-decoration: none;
   white-space: nowrap;
+  cursor: pointer;
 }
 
 .bg-blue-button {
@@ -519,4 +520,60 @@ img {
 .advantages__card_column--img {
   display: block;
   border-radius: 1rem;
+}
+
+/* cta-section */
+.cta {
+  background: linear-gradient(180deg, #2B076E 0%, #0D0D2B 100%);
+  color: #FFFFFF;
+  padding: 5.5rem 0;
+}
+
+.cta__container {
+  background-color: #3671E9;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cta__info {
+  padding: 3rem;
+  margin-right: auto;
+}
+
+.cta__header {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3rem;
+  margin: 0;
+  margin: 0 0 1rem 0;
+}
+
+.cta__descr {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.01rem;
+  margin: 0;
+}
+
+.cta__input {
+  background-color: transparent;
+  border: none;
+  height: 2.188rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  width: 23.375rem;
+  margin-right: 2.5rem;
+}
+
+.cta__input::placeholder {
+  color: #FFFFFF;
+}
+
+.cta__button {
+  color: #0D0D2B;
+  padding: 0.875rem 2rem;
+  border-radius: 2rem;
+  border: none;
 }
