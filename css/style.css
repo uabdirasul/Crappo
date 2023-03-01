@@ -668,6 +668,6 @@ img {
   display: block;
 }
 
-.footer__copyrights--social_icon:not(:last-child) {
+.footer__copyrights--social_link:not(:last-child) {
   margin-right: 0.5rem;
 }
