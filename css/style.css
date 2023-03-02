@@ -101,6 +101,7 @@ img {
 .site-nav__link {
   text-decoration: none;
   color: #fff;
+  font-size: 1rem;
 }
 
 .button-divider {
@@ -131,6 +132,7 @@ img {
 .hero__container {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .hero__content {
@@ -244,7 +246,7 @@ img {
 .promo {
   display: flex;
   align-items: center;
-  margin-bottom: 12.5rem;
+  margin-bottom: 5rem;
 }
 
 .promo__column_img {
@@ -252,13 +254,16 @@ img {
   width: 40.625rem;
   height: 29.563rem;
 }
+
 .promo__column_text {
+  padding-top: 1rem;
   font-weight: 700;
   font-size: 2.5rem;
   line-height: 3.75rem;
   color: #fff;
   margin: 0 0 1.43rem 0;
 }
+
 .promo__column_descr {
   font-weight: 400;
   font-size: 1rem;
@@ -497,7 +502,7 @@ img {
 }
 
 .advantages__card_column {
-  margin-right: 1rem;
+  padding: 1rem;
 }
 
 .advantages__card_column--header {
@@ -618,6 +623,8 @@ img {
 }
 
 .footer__link_item {
+  font-size: 1rem;
+  line-height: 2.375rem;
   margin: 0 0 0.5rem 0;
 }
 
@@ -640,6 +647,10 @@ img {
   font-size: 2rem;
   line-height: 3rem;
   margin: 0 0 2.5rem 0;
+}
+
+.footer__payment_systems {
+  white-space: nowrap;
 }
 
 .footer__payment_systems--logo:not(:last-child) {
@@ -698,6 +709,9 @@ img {
 }
 
 @media only screen and (max-width: 1100px) {
+  html {
+    font-size: 14px;
+  }
   .site-nav {
     margin-right: 2.5rem;
   }
@@ -712,5 +726,38 @@ img {
 
   .crypto_currency__card--descr {
     padding: 0 1rem;
+  }
+
+  .hero__cta--button__text {
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  html {
+    font-size: 10px;
+  }
+
+  .footer__quick_link, .footer__resources {
+    margin-right: 1.5rem;
+  }
+
+  .hero__cta--button {
+    padding: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .site-header {
+    margin-bottom: 2rem;
+  }
+
+  .hero__text {
+    font-size: 3rem;
+  }
+
+  .hero__content--img {
+    width: 30.188rem;
+    height: 29.25rem;
   }
 }
