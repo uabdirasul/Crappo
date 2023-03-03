@@ -206,6 +206,11 @@ img {
   margin-right: 1.5rem;
 }
 
+.hero__cta--button__icon svg {
+  width: 2rem;
+  height: 2rem;
+}
+
 .hero__content--img {
   width: 37.75rem;
   height: 36.572rem;
@@ -321,6 +326,7 @@ img {
 .calculator__input {
   border: none;
   width: 15rem;
+  font-size: 1.25rem;
 }
 
 .calculator__input--border {
@@ -578,6 +584,7 @@ img {
 
 .cta__input::placeholder {
   color: #FFFFFF;
+  font-size: 1rem;
 }
 
 .cta__button {
@@ -644,7 +651,7 @@ img {
 
 .footer__payment--header {
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 3rem;
   margin: 0 0 2.5rem 0;
 }
@@ -677,6 +684,8 @@ img {
 
 .footer__copyrights--social_icon {
   display: block;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .footer__copyrights--social_link:not(:last-child) {
@@ -759,5 +768,45 @@ img {
   .hero__content--img {
     width: 30.188rem;
     height: 29.25rem;
+  }
+
+  .crypto_currency__card--icon {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+
+  .advantages__header {
+    font-size: 2rem;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .footer__payment_systems--logo {
+    width: 4.8rem;
+    height: 3.2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 8px;
+  }
+
+  .hero__cta--button {
+    width: 11rem;
+    padding: 1rem;
+  }
+
+  .hero__cta--button__icon {
+    width: 1.9rem;
+    height: 1.9rem;
+  }
+
+  .cta__header {
+    font-size: 1.6rem;
+  }
+
+  .cta__button {
+    padding: 0.8rem 1.5rem
   }
 }
