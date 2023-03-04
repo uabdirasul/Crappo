@@ -554,7 +554,6 @@ img {
 
 .cta__info {
   padding: 3rem;
-  margin-right: auto;
 }
 
 .cta__header {
@@ -811,7 +810,43 @@ img {
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 480px) {
+  .site-header {
+    position: relative;
+    z-index: 99;
+  }
+
+  .site-nav__open {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: block;
+    width: 100%;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+    padding-bottom: 1.875;
+    margin-right: 0;
+    background-color: #FFFFFF;
+  }
+
+  .site-nav__list {
+    flex-direction: column;
+  }
+
+  .site-nav__item {
+    text-align: right;
+  }
+
+  .site-nav__item:not(:last-child) {
+    margin-right: 0;
+    color: #000;
+    margin-bottom: 1.25rem;
+  }
+
+  .site-nav__link {
+    color: #000;
+  }
+
   .hero__container {
     flex-direction: column;
   }
@@ -830,15 +865,27 @@ img {
   }
 
   .calculator {
-    width: 47rem;
+    width: 90%;
+  }
+
+  .calculator__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .calculator__input--border {
+    width: 30%;
+    font-size: 1rem;
   }
 
   .crypto_currency__card_wrapper {
     flex-direction: column;
+    align-items: center;
   }
 
   .crypto_currency__card {
-    width: 30rem;
+    width: 80%;
     height: 35rem;
   }
 
@@ -857,20 +904,54 @@ img {
   }
 
   .cta__container {
-    text-align: center;
     flex-direction: column;
-    align-items: start;
+    text-align: center;
     padding: 3rem;
-    width: 40rem;
+    width: 100%;
   }
 
   .cta__info {
-    white-space: nowrap;
     padding: 0;
     display: block;
   }
 
   .cta__input {
+    text-align: center;
+    width: 40%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .footer__logo {
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer__column:not(:last-child) {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+  }
+
+  .footer__quick_link, .footer__resources {
+    margin: 0 0 3rem 0;
+    padding: 0;
+  }
+
+  .footer__payment--header {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .footer__payment_systems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__payment_systems--logo:not(:last-child) {
     margin-right: 0;
     margin-bottom: 1rem;
   }
