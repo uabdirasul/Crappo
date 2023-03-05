@@ -121,6 +121,14 @@ img {
   margin-left: 1.5rem;
 }
 
+.site-header__toggler {
+  display: none;
+}
+
+.site-header__toggler_icon {
+  display: block;
+}
+
 /* main-content */
 
 /* hero */
@@ -816,6 +824,10 @@ img {
     z-index: 99;
   }
 
+  .site-nav {
+    display: none;
+  }
+
   .site-nav__open {
     position: absolute;
     left: 0;
@@ -826,7 +838,7 @@ img {
     padding-right: 1.875rem;
     padding-bottom: 1.875;
     margin-right: 0;
-    background-color: #FFFFFF;
+    background-color: #0d0d2b;
   }
 
   .site-nav__list {
@@ -839,12 +851,37 @@ img {
 
   .site-nav__item:not(:last-child) {
     margin-right: 0;
-    color: #000;
     margin-bottom: 1.25rem;
   }
 
   .site-nav__link {
-    color: #000;
+    /* color: #000; */
+  }
+
+  .registration-buttons {
+    line-height: 1rem;
+  }
+
+  .registration-button {
+    padding: 0.6rem;
+  }
+
+  .button-divider {
+    font-size: 1rem;
+  }
+
+  .site-header__toggler {
+    display: block;
+    border: none;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    padding: 0.4rem;
+    border: 1px solid #3671E9;
+  }
+
+  .site-header__toggler_icon {
+    width: 2rem;
+    height: 1.8rem;
   }
 
   .hero__container {
